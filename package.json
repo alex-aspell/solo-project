@@ -1,0 +1,33 @@
+{
+  "name": "solo-project",
+  "version": "1.0.0",
+  "description": "## ToDo List     [ ] Build the scaffolding     [ ] Create view partial for the top of the app     [ ] Connect API     [ ] Have API display on page     [ ] Format in bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-aspell/solo-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-aspell/solo-project/issues"
+  },
+  "homepage": "https://github.com/alex-aspell/solo-project#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
