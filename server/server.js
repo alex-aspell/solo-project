@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 app.use(express.static('server/public'));
 
 const movieRouter = require('./routers/movie-router');
+app.use('/movies', movieRouter);
 
 const port = process.env.PORT || 12345
 app.listen(port, function () {
